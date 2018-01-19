@@ -1,0 +1,231 @@
+    *{
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    
+    
+    body{
+        background-color:#EFEFEF;
+        margin:0px;
+        padding:0px;
+    }
+    .tagIcon{
+            vertical-align: middle;
+    
+    margin-top:-10px;
+    
+    }   
+    @media(max-width:480px){
+        .imgCheck{
+            width:100%;
+            
+        }
+    ul.tags li{
+        font-size:0.8em;
+        display: inline-block;
+        margin: 5px 5px;
+        font-weight: 300;
+        padding: 2px 5px;
+        background-color: orange;
+        color:white; 
+        
+    }
+        #shortNote{
+              font-size:.6em;
+        }
+        
+    }
+      @media(max-width:250px){
+        .imgCheck{
+            width:95%;
+            
+        }
+    ul.tags li{
+        font-size:0.5em;
+        display: inline-block;
+        margin: 5px 5px;
+        font-weight: 300;
+        padding: 2px 5px;
+        background-color: orange;
+        color:white; 
+        
+    }
+        #shortNote{
+              font-size:.5em;
+        }
+          ul.share{
+              font-size:.7em;
+          }
+          ul.authorShare{
+              font-size:0.6em;
+          }
+        
+    }
+    .header{
+        border-bottom:1px solid rgb(112, 110, 110);
+        margin-bottom:10px;
+    }
+    .headerTop h1{
+        font-weight: bold;
+         color:#41bb99;
+    }
+    .headerBottom a{
+        color:rgb(112, 110, 110);
+        text-decoration: none;
+        display: inline-block;
+        padding:10px;
+        margin-right:10px;
+        margin-left:10px;
+        
+
+    }
+    /* .headerBottom a:nth-child(2){
+       
+        margin-right:10px;
+        margin-left:10px;
+    } */
+    .alignleft{
+        float: left; 
+        margin: 10px;
+    }
+    .aligncenter{
+
+        margin: 0 auto;
+        width:100%;
+    }
+    .clearFix::after{
+      content: "";
+      display: block;
+      clear: both;
+    }
+    .footerTop{
+        display:flex;
+        margin:10px 0px;
+        padding: 10px 0px;
+       
+        border-top:1px solid rgb(112, 110, 110);  
+            
+    }
+    .footerTop ul{
+        margin: 0px;
+        padding: 0px;
+    }
+    .footerTop i{
+        display:inline-block;
+        font-size: 1.8em;
+        margin:0px 10px;
+        color:#41bb99;
+              
+    }
+.marginZero{
+margin:0px;
+padding:0px;}
+    
+    .authorFooterName{
+       
+    }
+    .footerTop ul li{
+    
+        display: inline-block;
+        margin: 0px 5px;
+        font-weight: 700;
+        padding: 4px 10px;
+        background-color:#41bb99;;
+        color:white;
+
+    }
+    .footerBottom{
+        
+    }
+    .footerBottom .share{
+        display:flex;
+    }
+    .footerBottom ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+    }
+    ul.share{
+        border-bottom:1px solid rgb(112, 110, 110);
+    }
+    ul.authorShare{
+        display:inline-block;
+        border:0px;
+    }
+     ul.share li{
+        display: inline-block;
+        font-size:2em;
+        margin: 0px 5px;
+        
+    }
+    ul.share li:hover{
+        animation: shake 1s infinite  ease-in alternate;
+    }
+    @keyframes shake{
+        0%{
+            transform-origin: 50% 100%;
+            transform: rotateZ(0deg);
+        }
+        25%{
+            transform: rotateZ(10deg);
+           
+        }
+        50%{
+            transform: rotateZ(-10deg) ;
+            
+        }
+        75%{
+            transform: rotateZ(10deg) ;
+           
+        }
+        
+        100%{
+            transform: rotateZ(0deg) scale(1,1);
+            
+        }
+    }
+    #tw{
+        color:#1dcaff;
+    }
+    #fb{
+        color:#3B5998;
+    }
+    #pinta{
+       color:#BD081C;
+    }
+    #whtapp{
+        color:#34AF23;
+    }
+   
+    .post-author-box{
+         font-size:1.5em;
+        margin:5px;
+        
+    }
+    .post-author-box .pencilIcon{
+       margin:-2px 5px;
+        font-size:1.5em;
+        
+    }
+    .post-author-box h4{
+        display: flex;
+    }
+    .author-profile{
+        display: flex;
+    }
+    .author-profile img{
+        border:1px solid transparent;
+        margin-right: 20px;
+        border-radius:50%; 
+    }
+    .author-profile-description{
+        font-size:0.8em;
+    }
+    a.author-social-icon-links{
+   
+        margin: 5px 10px;
+        padding: 4px;
+    }
+    .contentPost{
+        background-color: white;
+    }
